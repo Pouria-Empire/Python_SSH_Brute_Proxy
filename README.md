@@ -17,7 +17,7 @@ This Python script is used to connect to a SSH server with multiple usernames, p
 4. Run the script by running the following command in your terminal:
 
 ```
-python ssh_connect.py
+python pythonSSHBrute_Socks5.py
 ```
 
 5. The script will start connecting to each SSH server using the given usernames, passwords, and proxies. If a proxy is not available, it will try the next one until it finds a working proxy. If it fails to connect to a server using all the provided credentials, it will move on to the next server in the `ip.txt` file.
