@@ -16,7 +16,9 @@ This Python script is used to connect to a SSH server with multiple usernames, p
 3. Create a text file named `ip.txt` containing the list of SSH servers you want to connect to. Each server should be separated by a new line.
 4. Run the script by running the following command in your terminal:
 
-$$ python ssh_connect.py
+```
+python ssh_connect.py
+```
 
 5. The script will start connecting to each SSH server using the given usernames, passwords, and proxies. If a proxy is not available, it will try the next one until it finds a working proxy. If it fails to connect to a server using all the provided credentials, it will move on to the next server in the `ip.txt` file.
 6. The script will print the successful connections on the console and also write them to a file named `result.txt`.
